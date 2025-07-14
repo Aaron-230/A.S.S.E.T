@@ -1,4 +1,4 @@
-import { GoogleGenAI } from "@google/genai";
+import { GoogleGenAI } from "npm:@google/genai";
 
 const ai = new GoogleGenAI({ apiKey: "AIzaSyDrBm13b7t1MmbyG5p-yqQXjv-bACehMdU" });
 
