@@ -2,8 +2,8 @@ import { GoogleGenAI } from 'npm:@google/genai';
 
 const genAI = new GoogleGenAI({apiKey: ""});
 
-function generateResponse(content) {
-    response = genAI.models.generateContent({ model: "gemini-1.5-flash", content: content,});
+async function generateResponse(content) {
+    const response = genAI.models.generateContent({ model: "gemini-1.5-flash", content: content,});
     console.log(response);
 }
 
