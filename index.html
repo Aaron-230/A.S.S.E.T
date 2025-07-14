@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A.S.S.E.T. Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="script.js"></script>
+    <div class="ChatContainer">
+        <div class="ChatHeader">A.S.S.E.T. Demo</div>
+        <div class="ChatMessages" id="chatMessages">
+        </div>
+        <div class="ChatInputArea">
+            <input type="text" id="chatInput" class="ChatInput" placeholder="Type your message...">
+            <button id="sendButton" class="SendButton">Send</button>
+        </div>
+    </div>
 </body>
+<script src="script.js"></script>
 </html>
